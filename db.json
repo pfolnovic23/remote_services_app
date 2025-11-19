@@ -2,117 +2,117 @@
   "reperi": [
     {
       "id": 1,
-      "ime": "Vojko V",
-      "pravo_ime": "Vojko Vrucina",
-      "grupa": "N/A",
-      "grad": "Split"
+      "ime": "Scriptor",
+      "pravo_ime": "Vladimir Andrassy",
+      "grupa": "ONI, Shizo, Sinestet, Nas 5",
+      "grad": "Zagreb"
     },
     {
       "id": 2,
-      "ime": "High5",
-      "grupa": "Elemental",
-      "pravo_ime": "Matej Meic",
+      "ime": "Kali",
+      "grupa": "ONI, Krast",
+      "pravo_ime": "Vanja Khalifa",
       "grad": "Zagreb"
     },
     {
       "id": 3,
-      "ime": "Buntai",
-      "pravo_ime": "Bruno Lelas",
-      "grupa": "Krivo Sracunato",
-      "grad": "Dubrovnik"
+      "ime": "Jantar",
+      "pravo_ime": "Jan Miklauzic",
+      "grupa": "ONI, Skunk, Klin",
+      "grad": "Zagreb"
     },
     {
       "id": 4,
-      "ime": "Kontra",
-      "pravo_ime": "Davor Definitivno",
+      "ime": "Target",
+      "pravo_ime": "Nenad Šimun",
       "grupa": "Tram 11",
       "grad": "Zagreb"
     },
     {
       "id": 5,
-      "ime": "Smoke Mardeljano",
-      "pravo_ime": "Maro Sakic",
-      "grupa": "Blackout Project",
-      "grad": "Rijeka"
+      "ime": "General Woo",
+      "pravo_ime": "Srdan Cuk",
+      "grupa": "Tram 11",
+      "grad": "Vukovar"
     },
     {
       "id": 6,
-      "ime": "Frenkie",
-      "pravo_ime": "Adnan Hamidovic",
-      "grupa": "Disciplinska Komisija",
-      "grad": "Tuzla"
+      "ime": "Noti Limun",
+      "pravo_ime": "Ivan Bilinovac",
+      "grupa": "TDKM",
+      "grad": "Široki Brijeg (Broad Hill)"
     }
   ],
   "pjesme": [
     {
       "id": 1,
-      "ime": "Struja",
-      "grupa": "N/A",
-      "trajanje": "3:24",
-      "godina": 2019
-    },
-    {
-      "id": 2,
-      "ime": "Limunada",
-      "grupa": "N/A",
-      "trajanje": "2:58",
-      "godina": 2020
-    },
-    {
-      "id": 3,
-      "ime": "Sve Sam Ponizio",
-      "grupa": "Elemental",
-      "trajanje": "4:12",
-      "godina": 2018
-    },
-    {
-      "id": 4,
-      "ime": "Geto",
-      "grupa": "Elemental",
-      "trajanje": "3:45",
+      "ime": "Rudnik",
+      "grupa": "ONI",
+      "trajanje": "2:33",
       "godina": 2016
     },
     {
-      "id": 5,
-      "ime": "More Sokaka",
-      "grupa": "Krivo Sračunato",
-      "trajanje": "3:33",
-      "godina": 2015
+      "id": 2,
+      "ime": "Moram Ca",
+      "grupa": "Kampanari",
+      "trajanje": "3:21",
+      "godina": 2025
     },
     {
-      "id": 6,
-      "ime": "Povratak",
-      "grupa": "Tram 11",
-      "trajanje": "4:01",
-      "godina": 2014
-    },
-    {
-      "id": 7,
-      "ime": "Blackout",
-      "grupa": "Blackout Project",
-      "trajanje": "3:52",
+      "id": 3,
+      "ime": "Zadnja Stanica",
+      "grupa": "Klin",
+      "trajanje": "5:22",
       "godina": 2017
     },
     {
+      "id": 4,
+      "ime": "Predstavljam",
+      "grupa": "Shizo",
+      "trajanje": "3:26",
+      "godina": 2017
+    },
+    {
+      "id": 5,
+      "ime": "Prigusivac",
+      "grupa": "Noti Limun",
+      "trajanje": "2:38",
+      "godina": 2022
+    },
+    {
+      "id": 6,
+      "ime": "Pad Sistema",
+      "grupa": "Tram 11",
+      "trajanje": "3:48",
+      "godina": 2007
+    },
+    {
+      "id": 7,
+      "ime": "Cypher 2024",
+      "grupa": "TDKM",
+      "trajanje": "3:52",
+      "godina": 2024
+    },
+    {
       "id": 8,
-      "ime": "Rat I Mir",
-      "grupa": "Disciplinska Komisija",
-      "trajanje": "4:28",
-      "godina": 2013
+      "ime": "Desetka",
+      "grupa": "ONI",
+      "trajanje": "3:24",
+      "godina": 2025
     },
     {
       "id": 9,
-      "ime": "Balkan",
-      "grupa": "N/A",
-      "trajanje": "3:15",
-      "godina": 2021
+      "ime": "Prvi koraci",
+      "grupa": "ONI",
+      "trajanje": "3:35",
+      "godina": 2025
     },
     {
       "id": 10,
-      "ime": "Monopol",
-      "grupa": "Disciplinska Komisija",
-      "trajanje": "3:38",
-      "godina": 2012
+      "ime": "Mali ali veliki",
+      "grupa": "ONI",
+      "trajanje": "3:03",
+      "godina": 2025
     }
   ]
 }
