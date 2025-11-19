@@ -18,17 +18,8 @@ class PjesmaModel {
     required this.godina,
   });
 
-  factory PjesmaModel.fromJson(Map<String, dynamic> json) {
-    return PjesmaModel(
-      id: json['id'] is String ? int.parse(json['id']) : json['id'] as int,
-      ime: json['ime'] as String,
-      grupa: json['grupa'] as String,
-      trajanje: json['trajanje'] as String,
-      godina: json['godina'] is String
-          ? int.parse(json['godina'])
-          : json['godina'] as int,
-    );
-  }
+  factory PjesmaModel.fromJson(Map<String, dynamic> json) =>
+      _$PjesmaModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$PjesmaModelToJson(this);
 }
