@@ -20,8 +20,13 @@ class ReperService {
   /// GET - Fetch single rapper by ID
   Future<ReperModel> getReperById(int id) async {
     try {
-      final response = await _apiClient.dio.get('/reperi/$id');
-      return ReperModel.fromJson(response.data);
+      final response =
+          await _apiClient.dio.get('/reperi', queryParameters: {'id': id});
+      final List<dynamic> data = response.data;
+      if (data.isEmpty) {
+        throw Exception('Reper not found');
+      }
+      return ReperModel.fromJson(data.first);
     } catch (e) {
       throw Exception('Failed to load reper: $e');
     }

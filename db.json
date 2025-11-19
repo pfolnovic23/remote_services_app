@@ -3,7 +3,7 @@
     {
       "id": 1,
       "ime": "Vojko V",
-      "pravo_ime": "Vojko Vrućina",
+      "pravo_ime": "Vojko Vrucina",
       "grupa": "N/A",
       "grad": "Split"
     },
@@ -11,14 +11,14 @@
       "id": 2,
       "ime": "High5",
       "grupa": "Elemental",
-      "pravo_ime": "Matej Meić",
+      "pravo_ime": "Matej Meic",
       "grad": "Zagreb"
     },
     {
       "id": 3,
       "ime": "Buntai",
       "pravo_ime": "Bruno Lelas",
-      "grupa": "Krivo Sračunato",
+      "grupa": "Krivo Sracunato",
       "grad": "Dubrovnik"
     },
     {
@@ -31,14 +31,14 @@
     {
       "id": 5,
       "ime": "Smoke Mardeljano",
-      "pravo_ime": "Maro Šakić",
+      "pravo_ime": "Maro Sakic",
       "grupa": "Blackout Project",
       "grad": "Rijeka"
     },
     {
       "id": 6,
       "ime": "Frenkie",
-      "pravo_ime": "Adnan Hamidović",
+      "pravo_ime": "Adnan Hamidovic",
       "grupa": "Disciplinska Komisija",
       "grad": "Tuzla"
     }

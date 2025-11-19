@@ -20,8 +20,13 @@ class PjesmaService {
   /// GET - Fetch single song by ID
   Future<PjesmaModel> getPjesmaById(int id) async {
     try {
-      final response = await _apiClient.dio.get('/pjesme/$id');
-      return PjesmaModel.fromJson(response.data);
+      final response =
+          await _apiClient.dio.get('/pjesme', queryParameters: {'id': id});
+      final List<dynamic> data = response.data;
+      if (data.isEmpty) {
+        throw Exception('Pjesma not found');
+      }
+      return PjesmaModel.fromJson(data.first);
     } catch (e) {
       throw Exception('Failed to load pjesma: $e');
     }

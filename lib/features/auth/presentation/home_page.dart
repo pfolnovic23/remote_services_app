@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../core/storage/token_storage.dart';
-import '../../reperi/presentation/reperi_page.dart';
+import '../../reperi/presentation/reperi_menu_page.dart';
 import '../../pjesme/presentation/pjesme_page.dart';
 import 'login_page.dart';
 
@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
               color: Colors.blue,
               onTap: () => Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const ReperiPage()),
+                MaterialPageRoute(builder: (context) => const ReperiMenuPage()),
               ),
             ),
             const SizedBox(height: 16),
