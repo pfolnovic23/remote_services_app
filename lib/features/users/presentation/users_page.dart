@@ -129,8 +129,7 @@ class _UsersPageState extends State<UsersPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      if (user.phone != null)
-                        Text('Phone: ${user.phone}'),
+                      if (user.phone != null) Text('Phone: ${user.phone}'),
                       if (user.website != null)
                         Text('Website: ${user.website}'),
                       const SizedBox(height: 16),
@@ -138,8 +137,7 @@ class _UsersPageState extends State<UsersPage> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           TextButton.icon(
-                            onPressed: () =>
-                                _showUserDialog(user: user),
+                            onPressed: () => _showUserDialog(user: user),
                             icon: const Icon(Icons.edit),
                             label: const Text('Edit'),
                           ),
