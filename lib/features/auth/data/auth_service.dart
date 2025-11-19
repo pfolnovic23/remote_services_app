@@ -8,18 +8,19 @@ class AuthService {
 
   AuthService(this._apiClient, this._tokenStorage);
 
-  /// Simulate OAuth2 login with credential validation
   Future<LoginResponse> login(String email, String password) async {
     try {
-      // Simulating API call - replace with real endpoint
       await Future.delayed(const Duration(seconds: 1));
+
+      _apiClient.dio;
 
       // Demo credentials validation
       const validEmail = 'demo@example.com';
       const validPassword = 'password123';
 
       if (email != validEmail || password != validPassword) {
-        throw Exception('Invalid credentials. Use: $validEmail / $validPassword');
+        throw Exception(
+            'Invalid credentials. Use: $validEmail / $validPassword');
       }
 
       // Mock response (since jsonplaceholder doesn't have auth)

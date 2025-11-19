@@ -1,9 +1,21 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:logger/logger.dart';
+import 'dart:io' show Platform;
 
 class ApiClient {
-  static const String baseUrl = 'https://jsonplaceholder.typicode.com';
+  // Use localhost for web/desktop, 10.0.2.2 for Android emulator
+  static String get baseUrl {
+    try {
+      if (Platform.isAndroid) {
+        return 'http://10.0.2.2:3000';
+      }
+      return 'http://localhost:3000';
+    } catch (e) {
+      // For web or other platforms
+      return 'http://localhost:3000';
+    }
+  }
 
   late Dio dio;
   final FlutterSecureStorage storage = const FlutterSecureStorage();

@@ -1,6 +1,5 @@
-import 'package:dio/dio.dart';
 import '../../../core/network/api_client.dart';
-import 'user_models.dart';
+import '../../users/data/user_models.dart';
 
 class UserService {
   final ApiClient _apiClient;

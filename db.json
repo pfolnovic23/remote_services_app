@@ -1,0 +1,118 @@
+{
+  "reperi": [
+    {
+      "id": 1,
+      "ime": "Vojko V",
+      "pravo_ime": "Vojko Vrućina",
+      "grupa": "N/A",
+      "grad": "Split"
+    },
+    {
+      "id": 2,
+      "ime": "High5",
+      "grupa": "Elemental",
+      "pravo_ime": "Matej Meić",
+      "grad": "Zagreb"
+    },
+    {
+      "id": 3,
+      "ime": "Buntai",
+      "pravo_ime": "Bruno Lelas",
+      "grupa": "Krivo Sračunato",
+      "grad": "Dubrovnik"
+    },
+    {
+      "id": 4,
+      "ime": "Kontra",
+      "pravo_ime": "Davor Definitivno",
+      "grupa": "Tram 11",
+      "grad": "Zagreb"
+    },
+    {
+      "id": 5,
+      "ime": "Smoke Mardeljano",
+      "pravo_ime": "Maro Šakić",
+      "grupa": "Blackout Project",
+      "grad": "Rijeka"
+    },
+    {
+      "id": 6,
+      "ime": "Frenkie",
+      "pravo_ime": "Adnan Hamidović",
+      "grupa": "Disciplinska Komisija",
+      "grad": "Tuzla"
+    }
+  ],
+  "pjesme": [
+    {
+      "id": 1,
+      "ime": "Struja",
+      "grupa": "N/A",
+      "trajanje": "3:24",
+      "godina": 2019
+    },
+    {
+      "id": 2,
+      "ime": "Limunada",
+      "grupa": "N/A",
+      "trajanje": "2:58",
+      "godina": 2020
+    },
+    {
+      "id": 3,
+      "ime": "Sve Sam Ponizio",
+      "grupa": "Elemental",
+      "trajanje": "4:12",
+      "godina": 2018
+    },
+    {
+      "id": 4,
+      "ime": "Geto",
+      "grupa": "Elemental",
+      "trajanje": "3:45",
+      "godina": 2016
+    },
+    {
+      "id": 5,
+      "ime": "More Sokaka",
+      "grupa": "Krivo Sračunato",
+      "trajanje": "3:33",
+      "godina": 2015
+    },
+    {
+      "id": 6,
+      "ime": "Povratak",
+      "grupa": "Tram 11",
+      "trajanje": "4:01",
+      "godina": 2014
+    },
+    {
+      "id": 7,
+      "ime": "Blackout",
+      "grupa": "Blackout Project",
+      "trajanje": "3:52",
+      "godina": 2017
+    },
+    {
+      "id": 8,
+      "ime": "Rat I Mir",
+      "grupa": "Disciplinska Komisija",
+      "trajanje": "4:28",
+      "godina": 2013
+    },
+    {
+      "id": 9,
+      "ime": "Balkan",
+      "grupa": "N/A",
+      "trajanje": "3:15",
+      "godina": 2021
+    },
+    {
+      "id": 10,
+      "ime": "Monopol",
+      "grupa": "Disciplinska Komisija",
+      "trajanje": "3:38",
+      "godina": 2012
+    }
+  ]
+}

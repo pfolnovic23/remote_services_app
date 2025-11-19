@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../core/storage/token_storage.dart';
-import '../../users/presentation/users_page.dart';
-import '../../products/presentation/products_page.dart';
+import '../../reperi/presentation/reperi_page.dart';
+import '../../pjesme/presentation/pjesme_page.dart';
 import 'login_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Microservices Demo',
+              'Hrvatski Rap Microservices',
               style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
@@ -50,25 +50,25 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 24),
             _buildServiceCard(
               context,
-              icon: Icons.people,
-              title: 'Users Microservice',
-              description: 'Manage user accounts and profiles',
+              icon: Icons.person,
+              title: 'Reperi Microservice',
+              description: 'Browse Croatian rap artists',
               color: Colors.blue,
               onTap: () => Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const UsersPage()),
+                MaterialPageRoute(builder: (context) => const ReperiPage()),
               ),
             ),
             const SizedBox(height: 16),
             _buildServiceCard(
               context,
-              icon: Icons.shopping_bag,
-              title: 'Products Microservice',
-              description: 'Browse and manage products',
+              icon: Icons.music_note,
+              title: 'Pjesme Microservice',
+              description: 'Explore Croatian rap songs',
               color: Colors.green,
               onTap: () => Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const ProductsPage()),
+                MaterialPageRoute(builder: (context) => const PjesmePage()),
               ),
             ),
             const SizedBox(height: 16),
@@ -94,7 +94,8 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 16),
             _buildFeatureItem(context, 'REST API Integration'),
             _buildFeatureItem(context, 'Token-based Authentication'),
-            _buildFeatureItem(context, 'CRUD Operations'),
+            _buildFeatureItem(context, 'JSON Server Backend'),
+            _buildFeatureItem(context, 'Pull-to-Refresh'),
             _buildFeatureItem(context, 'Error Handling'),
           ],
         ),
@@ -121,7 +122,7 @@ class _HomePageState extends State<HomePage> {
               Container(
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  color: color.withOpacity(0.1),
+                  color: color.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(icon, color: color, size: 32),
